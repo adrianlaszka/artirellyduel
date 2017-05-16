@@ -6,6 +6,7 @@
 #include "widget.hpp"
 #include "ground.hpp"
 #include "artirelly.hpp"
+#include "bullet.hpp"
 #include "toolbar.hpp"
 
 using namespace std;
@@ -19,13 +20,18 @@ protected:
     Artirelly _player2;
     Toolbar _toolbar;
 
+    Bullet _bullet;
+
+    double moment;
+
     Artirelly * _currentPlayer;
 
     typedef enum {
       PLAYER1_SETUP,
-      PLAYER1_SHOT,
       PLAYER2_SETUP,
-      PLAYER2_SHOT,
+      BULLET_FIRED,
+      BULLET_BLAST,
+      BULLET_END,
       GAME_OVER
     } states;
 

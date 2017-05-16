@@ -18,7 +18,12 @@
 #define __IDC__TOOLBAR__SPINBUTTON__ANGLE (__IDC__USER + 7)
 #define __IDC__TOOLBAR__LABEL_POWER (__IDC__USER + 8)
 #define __IDC__TOOLBAR__SPINBUTTON__POWER (__IDC__USER + 9)
-#define __IDC__PLAYER1 (__IDC__USER + 10)
-#define __IDC__PLAYER2 (__IDC__USER + 11)
+#define __IDC__TOOLBAR__LABEL_GRAVITY (__IDC__USER + 10)
+#define __IDC__TOOLBAR__SPINBUTTON__GRAVITY (__IDC__USER + 11)
+#define __IDC__PLAYER1 (__IDC__USER + 12)
+#define __IDC__PLAYER2 (__IDC__USER + 13)
+#define __IDC__BULLET (__IDC__USER + 14)
+
+#define DEGREE_TO_RAD(angle) (((double)angle / 180.0) * 3.14159265)
 
 #endif // RESOURCES_HPP_INCLUDED

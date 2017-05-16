@@ -14,10 +14,17 @@ public:
 
     virtual void draw() const;
 
+    double getBarrelEndX() const;
+    double getBarrelEndY() const;
+
     int getAngle() const;
     void setAngle(int angle);
     int getPower() const;
     void setPower(int power);
+    int getDirection() const;
+
+    // return true if position is collied with ground
+    bool isCollided(int positionX, int positionY) const;
 };
 
 #endif // ARTIRELLY_HPP_INCLUDED

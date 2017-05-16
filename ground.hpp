@@ -16,6 +16,11 @@ public:
 
     void initialize();
     int smooth(int x, int e);
+
+    // return true if position is collied with ground
+    bool isCollided(int positionX, int positionY) const;
+    // decrease altitude at specific position
+    void decreaseAltitude(int positionX, int positionY);
 };
 
 #endif // GROUND_HPP_INCLUDED

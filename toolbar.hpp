@@ -14,6 +14,8 @@ public:
     SpinButton _spinButtonAngle;
     TextBox _labelPower;
     SpinButton _spinButtonPower;
+    TextBox _labelGravity;
+    SpinButton _spinButtonGravity;
     Button _buttonFire;
     Button _buttonPass;
 

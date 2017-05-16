@@ -40,8 +40,12 @@
 			<Add library="lib/libSDLmain.a" />
 			<Add directory="lib" />
 		</Linker>
+		<Unit filename="artirelly.cpp" />
+		<Unit filename="artirelly.hpp" />
 		<Unit filename="artirellyduel.cpp" />
 		<Unit filename="artirellyduel.hpp" />
+		<Unit filename="bullet.cpp" />
+		<Unit filename="bullet.hpp" />
 		<Unit filename="button.cpp" />
 		<Unit filename="button.hpp" />
 		<Unit filename="checkbox.hpp" />

@@ -1,71 +1,92 @@
 # depslib dependency file v1.0
-1494429424 source:c:\users\adria\onedrive\dokumentumok\github\artirellyduel\artirellyduel.cpp
+1494896024 source:d:\pázmány\bevprog2\artirellyduel__20170516\artirelly.cpp
+	"artirelly.hpp"
+	"resources.hpp"
+	<math.h>
+
+1494895316 d:\pázmány\bevprog2\artirellyduel__20170516\artirelly.hpp
+	"widget.hpp"
+
+1494799900 d:\pázmány\bevprog2\artirellyduel__20170516\widget.hpp
+	<stdio.h>
+	<vector>
+	"graphics.hpp"
+
+1494799900 d:\pázmány\bevprog2\artirellyduel__20170516\include\graphics.hpp
+	<string>
+
+1494889546 d:\pázmány\bevprog2\artirellyduel__20170516\resources.hpp
+
+1494896728 source:d:\pázmány\bevprog2\artirellyduel__20170516\artirellyduel.cpp
 	"artirellyduel.hpp"
 	"resources.hpp"
+	<stdlib.h>
 
-1494429250 c:\users\adria\onedrive\dokumentumok\github\artirellyduel\artirellyduel.hpp
+1494892116 d:\pázmány\bevprog2\artirellyduel__20170516\artirellyduel.hpp
 	<vector>
 	"widget.hpp"
 	"ground.hpp"
+	"artirelly.hpp"
+	"bullet.hpp"
 	"toolbar.hpp"
 
-1494421595 c:\users\adria\onedrive\dokumentumok\github\artirellyduel\widget.hpp
-	<stdio.h>
-	<vector>
-	"graphics.hpp"
-
-1494428731 c:\users\adria\onedrive\dokumentumok\github\artirellyduel\include\graphics.hpp
-	<string>
-
-1494428183 c:\users\adria\onedrive\dokumentumok\github\artirellyduel\ground.hpp
+1494894540 d:\pázmány\bevprog2\artirellyduel__20170516\ground.hpp
 	"widget.hpp"
 
-1494428242 c:\users\adria\onedrive\dokumentumok\github\artirellyduel\toolbar.hpp
+1494893684 d:\pázmány\bevprog2\artirellyduel__20170516\bullet.hpp
+	"widget.hpp"
+
+1494888060 d:\pázmány\bevprog2\artirellyduel__20170516\toolbar.hpp
 	"widget.hpp"
 	"button.hpp"
+	"spinbutton.hpp"
+	"textbox.hpp"
 
-1494421654 c:\users\adria\onedrive\dokumentumok\github\artirellyduel\button.hpp
+1494799900 d:\pázmány\bevprog2\artirellyduel__20170516\button.hpp
 	<string>
 	"graphics.hpp"
 	"widget.hpp"
 
-1494428163 c:\users\adria\onedrive\dokumentumok\github\artirellyduel\resources.hpp
+1494799900 d:\pázmány\bevprog2\artirellyduel__20170516\spinbutton.hpp
+	"graphics.hpp"
+	"widget.hpp"
+	"button.hpp"
+	"textbox.hpp"
 
-1494421749 source:c:\users\adria\onedrive\dokumentumok\github\artirellyduel\button.cpp
+1494799900 d:\pázmány\bevprog2\artirellyduel__20170516\textbox.hpp
+	<string>
+	"graphics.hpp"
+	"widget.hpp"
+
+1494896584 source:d:\pázmány\bevprog2\artirellyduel__20170516\bullet.cpp
+	"bullet.hpp"
+	"resources.hpp"
+	<math.h>
+
+1494799900 source:d:\pázmány\bevprog2\artirellyduel__20170516\button.cpp
 	"button.hpp"
 	<stdio.h>
 
-1494429511 source:c:\users\adria\onedrive\dokumentumok\github\artirellyduel\ground.cpp
+1494894634 source:d:\pázmány\bevprog2\artirellyduel__20170516\ground.cpp
 	"ground.hpp"
 	<stdlib.h>
 	<stdio.h>
 
-1494423528 source:c:\users\adria\onedrive\dokumentumok\github\artirellyduel\main.cpp
+1494799900 source:d:\pázmány\bevprog2\artirellyduel__20170516\main.cpp
 	"artirellyduel.hpp"
 	<stdlib.h>
 	<time.h>
 
-1494421849 source:c:\users\adria\onedrive\dokumentumok\github\artirellyduel\spinbutton.cpp
+1494799900 source:d:\pázmány\bevprog2\artirellyduel__20170516\spinbutton.cpp
 	"spinbutton.hpp"
 
-1494421772 c:\users\adria\onedrive\dokumentumok\github\artirellyduel\spinbutton.hpp
-	"graphics.hpp"
-	"widget.hpp"
-	"button.hpp"
+1494799900 source:d:\pázmány\bevprog2\artirellyduel__20170516\textbox.cpp
 	"textbox.hpp"
 
-1494421865 c:\users\adria\onedrive\dokumentumok\github\artirellyduel\textbox.hpp
-	<string>
-	"graphics.hpp"
-	"widget.hpp"
-
-1494421881 source:c:\users\adria\onedrive\dokumentumok\github\artirellyduel\textbox.cpp
-	"textbox.hpp"
-
-1494428407 source:c:\users\adria\onedrive\dokumentumok\github\artirellyduel\toolbar.cpp
+1494888508 source:d:\pázmány\bevprog2\artirellyduel__20170516\toolbar.cpp
 	"toolbar.hpp"
 	"resources.hpp"
 
-1494428693 source:c:\users\adria\onedrive\dokumentumok\github\artirellyduel\widget.cpp
+1494799900 source:d:\pázmány\bevprog2\artirellyduel__20170516\widget.cpp
 	"widget.hpp"
 

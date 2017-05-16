@@ -30,20 +30,19 @@ void Ground::draw() const {
   int x = 0;
 
   gout << color(0, 0, 180);
-  gout << move_to(0, 0) << box(640, 400);
+  gout << move_to(0, 0) << box(_size_x, _size_y);
 
   gout << color(240, 200, 30);
-//  gout << line_to(_x + x, _y + 400 - _altitudes[x]);
-  for (x = 0; x < 640; x++) {
-    gout << move_to(_x + x, _y + 399) << line_to(_x + x, _y + 399 - _altitudes[x]);
+  for (x = 0; x < _size_x; x++) {
+    gout << move_to(_x + x, _y + _size_y - 1) << line_to(_x + x, _y + _size_y - 1 - _altitudes[x]);
   }
 }
 
 void Ground::initialize() {
     _altitudes[0] = (rand() % 150) + 50;
-    _altitudes[639] = (rand() % 150) + 50;
+    _altitudes[_size_x - 1] = (rand() % 150) + 50;
 
-    generateAltitudes(0, 639);
+    generateAltitudes(0, _size_x - 1);
 }
 
 
@@ -62,4 +61,24 @@ int Ground::smooth(int x, int e) {
   }
 
   return (m);
+}
+
+bool Ground::isCollided(int positionX, int positionY) const {
+  bool result = false;
+
+  if ((positionX >= 0) && (positionX < _size_x)) {
+    if (_altitudes[positionX] > (_size_y - positionY)) {
+        result = true;
+    }
+  }
+
+  return (result);
+}
+
+void Ground::decreaseAltitude(int positionX, int positionY) {
+  if ((positionX >= 0) && (positionX < _size_x)) {
+    if ((_altitudes[positionX] >= 12) && (isCollided(positionX, positionY) == true)) {
+      _altitudes[positionX] = _altitudes[positionX] - 2;
+    }
+  }
 }
