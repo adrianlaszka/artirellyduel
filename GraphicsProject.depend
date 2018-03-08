@@ -1,0 +1,169 @@
+# depslib dependency file v1.0
+1493824856 source:d:\pázmány\bevprog2\beadandó 2\button.cpp
+	"button.hpp"
+	<stdio.h>
+
+1492731168 d:\pázmány\bevprog2\beadandó 2\button.hpp
+	<string>
+	"graphics.hpp"
+	"widget.hpp"
+
+1493212737 d:\pázmány\bevprog2\beadandó 2\include\graphics.hpp
+	<string>
+
+1493653752 d:\pázmány\bevprog2\beadandó 2\widget.hpp
+	<stdio.h>
+	<vector>
+	"graphics.hpp"
+
+1492729898 source:d:\pázmány\bevprog2\beadandó 2\checkbox.cpp
+	"checkbox.hpp"
+
+1492726248 d:\pázmány\bevprog2\beadandó 2\checkbox.hpp
+	"graphics.hpp"
+	"widget.hpp"
+
+1493825584 source:d:\pázmány\bevprog2\beadandó 2\listview.cpp
+	"listview.hpp"
+	<iostream>
+
+1493825194 d:\pázmány\bevprog2\beadandó 2\listview.hpp
+	<vector>
+	<string>
+	"graphics.hpp"
+	"widget.hpp"
+	"textbox.hpp"
+
+1493653172 d:\pázmány\bevprog2\beadandó 2\textbox.hpp
+	<string>
+	"graphics.hpp"
+	"widget.hpp"
+
+1493216740 source:d:\pázmány\bevprog2\beadandó 2\spinbutton.cpp
+	"spinbutton.hpp"
+
+1493651175 d:\pázmány\bevprog2\beadandó 2\spinbutton.hpp
+	"graphics.hpp"
+	"widget.hpp"
+	"button.hpp"
+	"textbox.hpp"
+
+1493653331 source:d:\pázmány\bevprog2\beadandó 2\textbox.cpp
+	"textbox.hpp"
+
+1493653822 source:d:\pázmány\bevprog2\beadandó 2\widget.cpp
+	"widget.hpp"
+
+1494325603 source:d:\pázmány\bevprog2\beadandó 2\main.cpp
+	"graphics.hpp"
+	"widget.hpp"
+	"checkbox.hpp"
+	"textbox.hpp"
+	"button.hpp"
+	"spinbutton.hpp"
+	"listview.hpp"
+	"dialog1.hpp"
+	"dialog2.hpp"
+	<vector>
+
+1493652269 d:\pázmány\bevprog2\beadandó 2\dialog1.hpp
+	"widget.hpp"
+	"button.hpp"
+	"textbox.hpp"
+	"listview.hpp"
+
+1493654717 source:d:\pázmány\bevprog2\beadandó 2\dialog1.cpp
+	"dialog1.hpp"
+
+1494328284 source:d:\pázmány\bevprog2\beadandó 2\dialog2.cpp
+	"dialog2.hpp"
+
+1493823047 d:\pázmány\bevprog2\beadandó 2\dialog2.hpp
+	"widget.hpp"
+	"button.hpp"
+	"listview.hpp"
+
+1493824856 source:d:\c#\beadandó-2\beadandó 2\button.cpp
+	"button.hpp"
+	<stdio.h>
+
+1492731168 d:\c#\beadandó-2\beadandó 2\button.hpp
+	<string>
+	"graphics.hpp"
+	"widget.hpp"
+
+1493212737 d:\c#\beadandó-2\beadandó 2\include\graphics.hpp
+	<string>
+
+1493653752 d:\c#\beadandó-2\beadandó 2\widget.hpp
+	<stdio.h>
+	<vector>
+	"graphics.hpp"
+
+1492729898 source:d:\c#\beadandó-2\beadandó 2\checkbox.cpp
+	"checkbox.hpp"
+
+1492726248 d:\c#\beadandó-2\beadandó 2\checkbox.hpp
+	"graphics.hpp"
+	"widget.hpp"
+
+1493654717 source:d:\c#\beadandó-2\beadandó 2\dialog1.cpp
+	"dialog1.hpp"
+
+1493652269 d:\c#\beadandó-2\beadandó 2\dialog1.hpp
+	"widget.hpp"
+	"button.hpp"
+	"textbox.hpp"
+	"listview.hpp"
+
+1493653172 d:\c#\beadandó-2\beadandó 2\textbox.hpp
+	<string>
+	"graphics.hpp"
+	"widget.hpp"
+
+1493825194 d:\c#\beadandó-2\beadandó 2\listview.hpp
+	<vector>
+	<string>
+	"graphics.hpp"
+	"widget.hpp"
+	"textbox.hpp"
+
+1494328284 source:d:\c#\beadandó-2\beadandó 2\dialog2.cpp
+	"dialog2.hpp"
+
+1493823047 d:\c#\beadandó-2\beadandó 2\dialog2.hpp
+	"widget.hpp"
+	"button.hpp"
+	"listview.hpp"
+
+1493825584 source:d:\c#\beadandó-2\beadandó 2\listview.cpp
+	"listview.hpp"
+	<iostream>
+
+1494325603 source:d:\c#\beadandó-2\beadandó 2\main.cpp
+	"graphics.hpp"
+	"widget.hpp"
+	"checkbox.hpp"
+	"textbox.hpp"
+	"button.hpp"
+	"spinbutton.hpp"
+	"listview.hpp"
+	"dialog1.hpp"
+	"dialog2.hpp"
+	<vector>
+
+1493651175 d:\c#\beadandó-2\beadandó 2\spinbutton.hpp
+	"graphics.hpp"
+	"widget.hpp"
+	"button.hpp"
+	"textbox.hpp"
+
+1493216740 source:d:\c#\beadandó-2\beadandó 2\spinbutton.cpp
+	"spinbutton.hpp"
+
+1493653331 source:d:\c#\beadandó-2\beadandó 2\textbox.cpp
+	"textbox.hpp"
+
+1493653822 source:d:\c#\beadandó-2\beadandó 2\widget.cpp
+	"widget.hpp"
+

@@ -13,9 +13,9 @@ protected:
 	bool _edit;
 
 public:
-    TextBox(Widget * parent, int id, int x, int y, int sizeX, int sizeY);
+    TextBox(Widget * parent, int id, int x, int y, int sizeX, int sy);
     virtual void draw() const ;
-    virtual void handle(Widget * widget, int code, event ev);
+    virtual void handle(Widget * source, int message, event ev);
 
   const string & getText() const;
   void setText(const string & s);

@@ -27,15 +27,6 @@ public:
     virtual ~Widget();
     virtual bool is_selected(int mouse_x, int mouse_y) const;
 
-    Widget * getParent() const;
-
-    int getPositionX() const;
-    void setPositionX(int x);
-    int getPositionY() const;
-    void setPositionY(int y);
-    int getSizeX() const;
-    int getSizeY() const;
-
     int getId() const;
     void setDisabled(bool disabled);
     void setFocus(bool focus);
@@ -45,7 +36,7 @@ public:
     virtual void add(vector<Widget *> & widgets);
 
     virtual void draw() const;
-    virtual void handle(Widget * widget, int code, event ev);
+    virtual void handle(Widget * source, int message, event ev);
 };
 
 

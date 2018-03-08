@@ -15,7 +15,7 @@ protected:
 public:
   Button(Widget * parent, int id, int x, int y, int sx, int sy, const char * caption);
   virtual void draw() const ;
-  virtual void handle(Widget * widget, int code, event ev);
+  virtual void handle(Widget * source, int message, event ev);
 };
 
 

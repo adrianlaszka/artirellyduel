@@ -12,7 +12,7 @@ void Button::draw() const {
     gout << move_to(_x + ((_size_x - gout.twidth(_caption))/ 2), _y + (_size_y / 2) + 5) << ((_disabled == false) ? color(255,255,255) : color(192,192,192)) << text(_caption);
 }
 
-void Button::handle(Widget * widget, int code, event ev) {
+void Button::handle(Widget * source, int message, event ev) {
   if (_disabled == false) {
     if (ev.type == ev_key && (ev.keycode == key_enter || ev.keycode == ' ')) {
       Widget::handle(this, __MESSAGE__OnClick, ev);
@@ -22,5 +22,5 @@ void Button::handle(Widget * widget, int code, event ev) {
     }
   }
 
-  Widget::handle(widget, code, ev);
+  Widget::handle(source, message, ev);
 }

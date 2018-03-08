@@ -22,34 +22,6 @@ bool Widget::is_selected(int mouse_x, int mouse_y) const
     return mouse_x>_x && mouse_x<_x+_size_x && mouse_y>_y && mouse_y<_y+_size_y;
 }
 
-Widget * Widget::getParent() const {
-    return (_parent);
-}
-
-int Widget::getPositionX() const {
-    return (_x);
-}
-
-void Widget::setPositionX(int x) {
-    _x = x;
-}
-
-int Widget::getPositionY() const {
-    return (_y);
-}
-
-void Widget::setPositionY(int y) {
-    _y = y;
-}
-
-int Widget::getSizeX() const {
-    return (_size_x);
-}
-
-int Widget::getSizeY() const {
-    return (_size_y);
-}
-
 int Widget::getId() const {
   return (_id);
 }
@@ -92,9 +64,9 @@ void Widget::draw() const {
   }
 }
 
-void Widget::handle(Widget * widget, int code, event ev) {
+void Widget::handle(Widget * source, int message, event ev) {
   if (_parent != NULL) {
-    _parent->handle(widget, code, ev);
+    _parent->handle(source, message, ev);
   }
 }
 
